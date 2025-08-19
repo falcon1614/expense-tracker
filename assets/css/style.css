@@ -1,0 +1,15 @@
+/* Simple styles */
+:root{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif}
+body{background:#f6f8fa;color:#111;margin:0;padding:24px}
+.container{max-width:900px;margin:0 auto}
+h1{margin:0 0 8px}
+.card{background:#fff;padding:16px;border-radius:8px;box-shadow:0 6px 18px rgba(16,24,40,0.06);margin-bottom:12px}
+label{display:block;margin-bottom:8px;font-size:14px}
+input,select,button{width:100%;padding:8px;border:1px solid #e6e9ef;border-radius:6px;font-size:14px}
+button{cursor:pointer}
+button[type=submit], .btn{background:#2563eb;color:#fff;border:none}
+.btn-link{display:inline-block;padding:8px 12px;background:transparent;color:#2563eb;text-decoration:none}
+.expenses{width:100%;border-collapse:collapse}
+.expenses th, .expenses td{padding:8px;border-bottom:1px solid #eee;text-align:left}
+.error{background:#ffe9e9;color:#900;padding:8px;border-radius:6px}
+.note{color:#666;font-size:13px}
